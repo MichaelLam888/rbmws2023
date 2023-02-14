@@ -1,0 +1,82 @@
+button.step {
+    background: #1097c0;
+    border: 3px solid rgba(0, 1, 2, 0.3);
+    padding: 10px 80px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  button.step_disabled {
+    background: #3a3f41;
+    border: 3px solid rgba(218, 231, 245, 0.3);
+    padding: 10px 80px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  button.step_back {
+    background: #6895a7;
+    border: 3px solid rgba(71, 92, 114, 0.3);
+    padding: 10px 80px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  div.loan_agree {
+    text-align: left;
+    font-family: Arial;
+    font-size: 15px;    
+    color: rgb(39, 39, 41);
+  }
+
+  div.loan_terms
+  {
+    text-align: left;
+    font-family: Arial;
+    font-size: 12px;
+  }
+
+  p.title
+  {
+    text-align: left;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  p.title_2
+  {
+    text-align: center;
+  }
+
+  span.blue_1
+  {
+    text-align: left;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    line-height: 10px;     
+}
+
+.checkbox_x2{
+  transform: scale(3);
+  margin: 40px 15px 0 0;
+}
+
+input[type=checkbox][disabled]{  
+  transform: scale(1.5);
+  border-color: #3d9000;
+  color: #96be0a;
+}
