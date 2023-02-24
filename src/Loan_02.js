@@ -3,7 +3,7 @@ import React from 'react'
 export default function Loan_02() {
   return (
     <div className="loan_agree">
-      <p><strong>Loan No. 貸款編號: RMPL-000144-01</strong></p>
+      
 <p className='title_2'><strong>TERM OF SUMMARY OF PROVISIONS OF THE ORDINANCE TO BE INCLUDED IN OR ATTACHED TO A NOTE OR MEMORANDUM OF A LOAN AGREEMENT</strong></p>
 <p className='title_2'><strong>THE MONEY LENDERS ORDINANCE</strong></p>
 <h3><p className='title_2'>附於或載於借約提要書或備忘錄的放債⼈條例摘要放債⼈條例</p></h3>
