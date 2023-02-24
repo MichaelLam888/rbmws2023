@@ -56,24 +56,24 @@ export default function Loan_04() {
 
 <br /><br />
 
-<h3><p className='title_2'>Repayment Schedule 還款表</p></h3><p><br />Name of Borrower 借款⼈姓名 : Test<br />Loan No. 貸款編號 : RMPL-000144-01 <br />Loan Date 起息⽇期 : 2022-08-23<br />Loan Amount 貸款⾦額 : 10,000.00 <br />Interest Method 計息⽅法 : Amortization 息隨本減<br />Total Tenors 供款期數 : 12 <br />Repay. Cycle 還款週期 : Monthly 每⽉</p>
+<h3><p className='title_2'>Repayment Schedule 還款表</p></h3><p><br />Name of Borrower 借款⼈姓名 : {cust_detial.borrower}<br />Loan No. 貸款編號 : {cust_detial.loan_no} <br />Loan Date 起息⽇期 : {cust_detial.loan_date}<br />Loan Amount 貸款⾦額 :  {cust_detial.loan_amt} <br />Interest Method 計息⽅法 : Amortization 息隨本減<br />Total Tenors 供款期數 : {cust_detial.tenors}<br />Repay. Cycle 還款週期 : Monthly 每⽉</p>
 <img width="100%" src={cust_detial.repayment_form}></img>
  
 <br /><br />
 <h3><p className='title_2'>Acknowledge of Receipt 放款確認書</p></h3>
-<p>Payout Date 放款⽇期 :&nbsp; 2022-08-23</p>
-<p>Loan No. 貸款編號&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp; RMPL-000144-01</p>
-<p>Borrower 借款⼈&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Test, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; holder of 香港⾝份證: Q123456(7)</p>
-<p>I/We refer to the said Loan Agreement amounting of HK$ 10,000.00 made between your company as the Lender and me/us as the Borrowers of even date.</p>
-<p>本⼈/吾等同意上述⽇期及以上貸款合約向貴司借貸港幣 10,000.00。</p>
+<p>Payout Date 放款⽇期 :&nbsp; {cust_detial.loan_date}</p>
+<p>Loan No. 貸款編號&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp; {cust_detial.loan_no}</p>
+<p>Borrower 借款⼈&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : {cust_detial.borrower}, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; holder of 香港⾝份證: {cust_detial.id}</p>
+<p>I/We refer to the said Loan Agreement amounting of HK$ {cust_detial.loan_amt} made between your company as the Lender and me/us as the Borrowers of even date.</p>
+<p>本⼈/吾等同意上述⽇期及以上貸款合約向貴司借貸港幣 {cust_detial.loan_amt}。</p>
 <p>&nbsp;</p>
 <p>I/We hereby authorize your company to issue the loan amount advance to us under the said Loan Agreement in the following manner:</p>
 <p>本⼈/吾等授權貴司按照以下⽅式⽀付該合約之貸款⾦額：</p>
-<p>Payable Detail ⽀付細節 :&nbsp;</p>
-<p>Payable to ⽀付予 : Test</p>
-<p>Amount(HK$) ⾦額(港幣) : 10,000.00</p>
+<p>Payable Detail ⽀付細節 : 銀行轉帳</p>
+<p>Payable to ⽀付予 : {cust_detial.borrower}</p>
+<p>Amount(HK$) ⾦額(港幣) : {cust_detial.loan_amt}</p>
 <p>Payout Method ⽀付⽅式:&nbsp;</p>
-<p>總額 Total: 10,000.00</p>
+<p>總額 Total: {cust_detial.loan_amt}</p>
 <p>&nbsp;</p>
  
     </div>

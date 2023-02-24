@@ -72,7 +72,7 @@ export default function Template_6() {
 {submit_result.submit_success == 1 && 
   
 
-   <>已成功提交,感謝
+   <>簽名成功,請按下一步繼續<br/><br/>
 
   <button className="step" onClick={handleClick8}>下一步</button>
    {/*<SignToPDF />*/}</>
