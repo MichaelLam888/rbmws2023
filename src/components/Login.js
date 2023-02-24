@@ -62,8 +62,8 @@ const Login = () => {
 
     return (
         <div className="myform">
-             <img width="50%" src={process.env.PUBLIC_URL+"images/logo.jpg"} /> 
-            <h2>RB MONEY 網簽系統</h2>
+             <img className="logo" width="50%" src={process.env.PUBLIC_URL+"images/logo.jpg"} /> 
+            <h2>網簽系統</h2>
             <form onSubmit={submitForm}>
                 <label htmlFor="phone">電話號碼:</label>
                 <input type="text" name="phone" onChange={onChangeInput} placeholder="電話號碼" id="phone" value={formData.phone} required />
