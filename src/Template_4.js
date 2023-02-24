@@ -40,7 +40,7 @@ let audioSource = 'data:audio/wav;base64,' + cust_detial.audioContent
 
     播放錄音
     內容 : <br /><br />
-    <div className='loan_terms'>{ cust_detial.voice_raw}</div>
+    <div className='loan_terms_1'>{ cust_detial.voice_raw}</div>
 
      <div>
       <audio hidden controls="controls" autobuffer="autobuffer" id="player" onEnded={handleAudioEnded}>
