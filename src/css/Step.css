@@ -61,6 +61,15 @@ button.step {
     color: blue;
   }
 
+  span.blue_2
+  {
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: blue;
+  }
+
   table {
     border-collapse: collapse;
     width: 100%;

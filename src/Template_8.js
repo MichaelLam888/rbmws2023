@@ -17,7 +17,7 @@ const Template_8 = () => {
   }
 
   const types = ['image/png', 'image/jpeg', 'image/gif', 'image/heic'];
-  const maxSize = 1000000; // 1 MB
+  const maxSize = 5000000; // 5 MB
 
   const handleChange = (e) => {
     let selected = e.target.files[0];
@@ -29,7 +29,7 @@ const Template_8 = () => {
     } else if (selected && selected.size > maxSize) {
       setFile(null);
       setPreview(null);
-      setError('File size is too big. Please select a file smaller than 1 MB.');
+      setError('File size is too big. Please select a file smaller than 5 MB.');
     } else {
       setFile(null);
       setPreview(null);
@@ -80,6 +80,7 @@ const Template_8 = () => {
     <form onSubmit={handleSubmit}>
       <input type="file" onChange={handleChange} />
       <div className="output">
+      <span className='blue_2'><h1>第二步 : 請跟以下示範圖片動作拍照</h1></span>
         {error && <div className="error">{error}</div>}
         {loading && <div className="loading">Uploading...</div>}
         {preview ? (

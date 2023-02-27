@@ -54,7 +54,7 @@ console.log (cust_detial.load )
         <p><img width="30%" src={process.env.PUBLIC_URL+"images/loading.gif"} /></p>
         加載中.請稍等</div>}
         
-      {cust_detial.load == 3 &&  <div>FAIL!</div>}
+      {cust_detial.load == 3 &&  <div>暫時未有合約待簽</div>}
 
       {cust_detial.load == 1 &&  
 
@@ -78,7 +78,7 @@ console.log (cust_detial.load )
   </tr>
   <tr>
   <td width="349">
-  <p>Interest Rate (p.a.) 年利率 : <span className='blue_1'>{cust_detial.interest}</span></p>
+  <p>APR 實際年利率 : <span className='blue_1'>{cust_detial.interest}</span></p>
   </td>
   <td width="348">
   <p>Loan Date 貸款⽇期 : <span className='blue_1'>{cust_detial.loan_date}</span></p>
