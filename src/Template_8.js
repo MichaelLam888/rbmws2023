@@ -86,7 +86,7 @@ const Template_8 = () => {
         {preview ? (
           <img src={preview} alt="Preview" width="80%" />
         ) : (
-          <img src="https://zh22rbmsign.rbmoney.hk/image/kyc1.2.jpg" alt="Default" width="80%" />
+          <img src={process.env.PUBLIC_URL+"images/sign_02.jpg"} alt="Default" width="80%" />
         )}
       </div>
       {uploaded ? (
