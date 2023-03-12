@@ -87,7 +87,8 @@ const Template_7 = () => {
         {preview ? (
           <img src={preview} alt="Preview" width="80%" />
         ) : (
-          <img src={process.env.PUBLIC_URL+"images/sign_01.jpg"} alt="Default" width="80%" />
+         // <img src={process.env.PUBLIC_URL+"images/sign_01.jpg"} alt="Default" width="80%" />
+         <img src={cust_detial.img_1} alt="Default" width="80%" />
         )}
       </div>
       {uploaded ? (

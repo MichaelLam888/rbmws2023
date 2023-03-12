@@ -80,13 +80,14 @@ const Template_8 = () => {
     <form onSubmit={handleSubmit}>
       <input type="file" onChange={handleChange} />
       <div className="output">
-      <span className='blue_2'><h1>第二步 : 請跟以下示範圖片動作拍照</h1></span>
+      <span className='blue_2'><h1>第二步 : 請跟以下示範圖片動作拍攝你的身份証</h1></span>
         {error && <div className="error">{error}</div>}
         {loading && <div className="loading">Uploading...</div>}
         {preview ? (
           <img src={preview} alt="Preview" width="80%" />
         ) : (
-          <img src={process.env.PUBLIC_URL+"images/sign_02.jpg"} alt="Default" width="80%" />
+          //<img src={process.env.PUBLIC_URL+"images/sign_03.jpg"} alt="Default" width="80%" />
+          <img src={cust_detial.img_2} alt="Default" width="80%" />
         )}
       </div>
       {uploaded ? (

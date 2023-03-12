@@ -72,7 +72,7 @@ export default function Loan_04() {
 <p>Payable Detail ⽀付細節 : 銀行轉帳</p>
 <p>Payable to ⽀付予 : {cust_detial.borrower}</p>
 <p>Amount(HK$) ⾦額(港幣) : {cust_detial.loan_amt}</p>
-<p>Payout Method ⽀付⽅式:&nbsp;</p>
+<p>Payout Method ⽀付⽅式:&nbsp;{cust_detial.paid_type}</p>
 <p>總額 Total: {cust_detial.loan_amt}</p>
 <p>&nbsp;</p>
  
