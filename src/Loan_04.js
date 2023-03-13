@@ -71,7 +71,8 @@ export default function Loan_04() {
 <p>本⼈/吾等授權貴司按照以下⽅式⽀付該合約之貸款⾦額：</p>
 <p>Payable Detail ⽀付細節 : 銀行轉帳</p>
 <p>Payable to ⽀付予 : {cust_detial.borrower}</p>
-<p>Amount(HK$) ⾦額(港幣) : {cust_detial.loan_amt}</p>
+<p>Up Front Interest 預付利息 : {cust_detial.up_front}</p>
+<p>Amount(HK$) ⾦額(港幣) : {cust_detial.paid_amount}</p>
 <p>Payout Method ⽀付⽅式:&nbsp;{cust_detial.paid_type}</p>
 <p>總額 Total: {cust_detial.loan_amt}</p>
 <p>&nbsp;</p>
