@@ -56,7 +56,7 @@ export default function Loan_04() {
 
 <br /><br />
 
-<h3><p className='title_2'>Repayment Schedule 還款表</p></h3><p><br />Name of Borrower 借款⼈姓名 : {cust_detial.borrower}<br />Loan No. 貸款編號 : {cust_detial.loan_no} <br />Loan Date 起息⽇期 : {cust_detial.loan_date}<br />Loan Amount 貸款⾦額 :  {cust_detial.loan_amt} <br />Interest Method 計息⽅法 : Amortization 息隨本減<br />Total Tenors 供款期數 : {cust_detial.tenors}<br />Repay. Cycle 還款週期 : Monthly 每⽉</p>
+<h3><p className='title_2'>Repayment Schedule 還款表</p></h3><p><br />Name of Borrower 借款⼈姓名 : {cust_detial.borrower}<br />Loan No. 貸款編號 : {cust_detial.loan_no} <br />Loan Date 起息⽇期 : {cust_detial.loan_date}<br />Loan Amount 貸款⾦額 :  {cust_detial.loan_amt} <br />Interest Method 計息⽅法 : {cust_detial.int_method}<br />Total Tenors 供款期數 : {cust_detial.tenors}<br />Repay. Cycle 還款週期 : Monthly 每⽉</p>
 <img width="100%" src={cust_detial.repayment_form}></img>
  
 <br /><br />
